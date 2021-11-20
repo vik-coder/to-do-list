@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="to-do-app" class="to-do-list">
+            <h1>To-do list</h1>
+            <i id="clear-list" class="fa fa-trash-o" aria-hidden="true" title="Clear All"></i>
+            <span id="title-date" class="title-date">November 20, 2020</span>
+            <div class="tasker-container">
+                <ul id="tasks-ul">
+                </ul>
+            </div>
+            <div class="add-task-button">+</div>
+            <div id="task-container" class="task-container">
+                <div id="error-msg" class="error-msg">Has to be atleast 1 letter!</div>
+                <input type="text" id="task" placeholder="to-do">
+                <button id="add-task">+</button>
+            </div>
+        </div>
+    </div>
+    <!--Script-->
+   <script src="script.js"></script>
+</body>
+</html>
